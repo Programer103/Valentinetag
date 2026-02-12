@@ -1,0 +1,41 @@
+.conteiner {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.video {
+    display: none;
+    width: 100%;
+    margin-bottom: 15%;
+}
+.video-herz {
+}
+.video-doner {
+}
+.video--active{
+    display: block;
+}
+.content {
+}
+
+.prg-wrapper{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+.question {
+}
+.btn-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+width: 100px;
+height: 50px;
+margin: 5px;
+}
+.agree-btn {
+}
+.disagree-btn {
+}
