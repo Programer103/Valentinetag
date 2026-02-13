@@ -12,6 +12,25 @@ body{
     justify-content: center;
     align-items: center;
 }
+.first-view{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.first-view--off{
+    opacity: 0;
+    pointer-events: none;
+}
 .conteiner-inner {
     max-width: 450px;
     margin: 20px;
